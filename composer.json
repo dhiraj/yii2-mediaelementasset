@@ -1,0 +1,41 @@
+{
+  "name": "dhiraj/yii2-mediaelementasset",
+  "description": "Asset Bundle for Yii2 with MediaElement.js",
+  "keywords": [
+    "yii",
+    "MediaElement",
+    "MP4",
+    "HTML5",
+    "video"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "support": {
+    "issues": "https://github.com/dhiraj/yii2-mediaelementasset/issues",
+    "source": "https://github.com/dhiraj/yii2-mediaelementasset"
+  },
+  "authors": [
+    {
+      "name": "Dhiraj Gupta",
+      "email": "dhiraj@traversient.com",
+      "homepage": "http://traversient.com/"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "2.0.*",
+    "bower-asset/mediaelement": "^2.23"
+  },
+  "autoload": {
+    "psr-4": {
+      "traversient\\yii\\mediaelement\\": ""
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}

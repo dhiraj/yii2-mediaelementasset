@@ -1,2 +1,4 @@
 /vendor/
 workspace.xml
+.idea/php.xml
+.idea/yii2-mediaelementasset.iml
